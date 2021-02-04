@@ -1,16 +1,21 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
-*main - entry point
-*Return: 0
-*/
+ * main - entry point
+ * print message
+ * Return: 0
+ */
+
 int main(void)
 {
-	unsigned int o;
+	unsigned int y;
 
-	for (o = 0; o <= 9; ++o)
+	for (y = '0'; y <= '9'; y++)
 	{
-		printf("%i", o);
+	putchar(y);
 	}
 	putchar('\n');
+
 	return (0);
 }
