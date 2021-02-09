@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- *print_alphabet_x10 -
- *
- * Return: 0
+ * print_alphabet_x10 - print x10
+ * print message
+ * Return: success
  */
 void print_alphabet_x10(void)
 {
