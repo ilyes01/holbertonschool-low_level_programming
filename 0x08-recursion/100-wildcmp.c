@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-*int wildcmp - function
+*wildcmp - function
 *@s1: char
 *@s2: char
 * Return: 0
