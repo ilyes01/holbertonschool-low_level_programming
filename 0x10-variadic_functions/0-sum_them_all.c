@@ -3,7 +3,7 @@
 /**
 *sum_them_all - function that returns the sum
 *@n: number
-*Return: sum
+*Return: sum dryju'-zh
 **/
 int sum_them_all(const unsigned int n, ...)
 {
