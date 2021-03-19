@@ -1,16 +1,19 @@
 section .data
-	msg db "Hello, Holberton", 10
+fmt db "%s", 10, 0
+msg db "Hello, Holberton", 0
 
-	section .text
-	global main
+section .text
+extern printf
+global main
+
 main:
-	mov rax, 1
-	mov rdi, 1
-	mov rsi, msg
-	mov rdx, 1
-	syscall
+push	rbp
 
-	mov rax, 60
-	mov rdi, 0
+mov	rdi,fmt
+mov	rsi,msg
+mov	rax,0
+call	printf
 
-	syscall
+pop	rbp
+mov	rax,0
+ret
