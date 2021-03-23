@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-*free_listint2 -  function that frees
+*free_listint2 -  function that frees lists
 *@head: pointer
 *Return: 0
 **/
