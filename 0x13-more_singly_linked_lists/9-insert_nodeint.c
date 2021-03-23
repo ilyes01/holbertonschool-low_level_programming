@@ -8,7 +8,6 @@
 */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int index, int n)
 {
-
 listint_t *new, *t;
 unsigned int x = 0;
 new = malloc(sizeof(listint_t));
