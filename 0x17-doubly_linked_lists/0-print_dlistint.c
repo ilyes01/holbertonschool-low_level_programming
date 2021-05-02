@@ -10,7 +10,8 @@
 size_t print_dlistint(const dlistint_t *h)
 {
 	unsigned int i = 0;
-	if (h == NULL)
+
+if (h == NULL)
 		return (0);
 	while (h != NULL)
 	{
@@ -18,5 +19,5 @@ size_t print_dlistint(const dlistint_t *h)
 	h = h->next;
 	i++;
 	}
-		return (i);
+	return (i);
 }
